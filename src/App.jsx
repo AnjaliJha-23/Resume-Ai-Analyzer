@@ -1,9 +1,11 @@
+import { ThemeProvider } from "./context/ThemeContext";
+import Landing from "./pages/Landing";
+
 function App() {
   return (
-    <div>
-      <h1>ResumeAI 🚀</h1>
-      <p>AI-powered resume building platform.</p>
-    </div>
+    <ThemeProvider>
+      <Landing />
+    </ThemeProvider>
   );
 }
 
