@@ -1,0 +1,60 @@
+:root {
+  /* Global Design Tokens: Warm Cream + Deep Maroon (#8D3030) + Black + Soft Neutrals */
+  --bg-paper: #F5F3E9;
+  --bg-paper-darker: #EAE5D7;
+  --bg-paper-light: #FAF8F2;
+  --bg-card: #FAF8F2;
+  --bg-card-hover: #FFFFFF;
+  --bg-black: #111111;
+  --bg-dark-surface: #181817;
+
+  /* Primary Brand Maroon */
+  --color-maroon: #8D3030;
+  --color-maroon-hover: #752525;
+  --bg-maroon: #8D3030;
+  --border-maroon: #8D3030;
+
+  /* Typography Colors */
+  --text-main: #111111;
+  --text-maroon: #8D3030;
+  --text-muted: #5C5A54;
+  --text-subtle: #8A877D;
+  --text-inverse: #F5F3E9;
+
+  /* Borders & Rules */
+  --border-strong: #111111;
+  --border-subtle: rgba(17, 17, 17, 0.18);
+  --border-medium: rgba(17, 17, 17, 0.35);
+
+  /* Status Badges */
+  --badge-success-bg: #E3EDE4;
+  --badge-success-text: #1B4A23;
+  --badge-warning-bg: #F5EBDD;
+  --badge-warning-text: #664100;
+  --badge-maroon-bg: rgba(141, 48, 48, 0.1);
+  --badge-maroon-text: #8D3030;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Fonts */
+  --font-display: 'Oswald', 'Archivo Narrow', sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+
+  /* Shadows (Subtle, Editorial) */
+  --shadow-sm: 0 2px 8px rgba(17, 17, 17, 0.04);
+  --shadow-md: 0 8px 24px rgba(17, 17, 17, 0.06);
+  --shadow-lg: 0 16px 40px rgba(17, 17, 17, 0.08);
+  --shadow-card: 0 4px 20px rgba(17, 17, 17, 0.05);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
